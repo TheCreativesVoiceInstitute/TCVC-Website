@@ -119,7 +119,6 @@ function Section4() {
                     <p> <FaRegCopyright />THE CREATIVES' VOICE CONFERENCE 2024</p>
                 </div>
             </section>
-            <h1>test</h1>
         </>
     )
 }
