@@ -1,0 +1,238 @@
+.section-1{
+    margin: 1.7rem 10rem 4.5rem 10rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+.checkout{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57.6px;
+    margin-top: 50px;
+    font-family: SF-pro-bold;
+}
+.partners{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.partners div{
+    width: 100px;
+    height: 60px;
+    background-color: #ffffff;
+}
+.loren-sec-1{
+    font-size: 16px;
+    line-height: 19.2px;
+    font-weight: 400;
+    font-family: SF-pro-Regular;
+}
+.blt-pt{
+    font-size: 28px;
+    text-align: left;
+}
+.blt-pt h4 {
+    margin-top: 24px;
+    line-height: 33.6px;
+    font-weight: 400;
+    display: flex;
+    gap: 5px;
+    font-size: 28px;
+    font-family: SF-pro-Regular;
+}
+.if-so{
+    font-size: 23px;
+    line-height: 27.6px;
+    font-weight: 400;
+    margin-top: 48px;
+    margin-bottom: 50px;
+    font-family: SF-pro-Regular;
+}
+.section1-btn-sub{
+    font-size: 16px;
+    line-height: 19.2px;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 20px 90px 20px 90px;
+    margin-bottom: 72.5px;
+    font-family: SF-pro-Regular;
+    text-decoration: none;
+    
+}
+.section1-btn-sub:hover{
+    opacity: 80%;
+}
+.section1-btn-sub:active{
+    transform: translateY(4px);
+}
+.section1-which{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    margin-bottom: 24px;
+    font-family: SF-pro-bold;
+}
+.what-is-box{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 65px;
+}
+.what-is-box-2{
+    display: flex;
+    gap: 65px;
+    margin-top: 100px;
+}
+.what-is-box-sub{
+    text-align: left;
+}
+.what-is-box-sub h3{
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 39.6px;
+    margin-top: 50.5px;
+    font-family: SF-pro-bold;
+}
+.what-is-box-sub h4 {
+    font-size:28px ;
+    font-weight: 400;
+    line-height: 33.6px;
+    margin-top: 24px;
+    font-family: SF-pro-Regular;
+}
+@media screen and (max-width:1024px){
+    .section-1{
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+    .section1-which{
+        font-size: 42px;
+    }
+    .checkout{
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 55.6px;
+        margin-top: 50px;
+        font-family: SF-pro-bold;
+    }
+    .partners div{
+        width: 90px;
+        height: 50px;
+        background-color: #ffffff;
+    }
+    .what-is-box-img{
+        width: 40%;
+        height: 40%;
+    }
+    .what-is-box-sub h3{
+        font-size: 28px;
+        line-height: 35.6px;
+        margin-top:0px ;
+    }
+    .what-is-box-sub h4 {
+        font-size:22px ;
+        font-weight: 400;
+        line-height: 30.6px;
+        margin-top: 10px;
+        font-family: SF-pro-Regular;
+    }
+    .what-is-box{
+        gap: 40px;
+        margin-top: 20px;
+    }
+    .what-is-box-2{
+        gap: 40px;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width:767px){
+    .section-1{
+        margin: 1.7rem 1rem 3rem 1rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    
+    }
+    .checkout{
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 27.6px;
+        margin-top: 50px;
+    }
+    .blt-pt h4 {
+        margin-top: 16px;
+        line-height: 19.2px;
+        font-weight: 400;
+        display: flex;
+        gap: 5px;
+        font-size: 16px;
+    }
+    .section1-btn-sub{
+        font-size: 15px;
+        line-height: 19.2px;
+        font-weight: 400;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        border-radius: 10px;
+        padding: 20px 88px 20px 88px;
+        margin-bottom: 72.5px;
+    }
+    .if-so{
+        font-size: 13px;
+        line-height: 15.6px;
+        font-weight: 400;
+        margin-top: 16px;
+        margin-bottom: 40px;
+    }
+    .partners div{
+        width: 50px;
+        height: 30px;
+    }
+    .loren-sec-1{
+        margin-top: 2px;
+        font-size: 15px;
+    }
+    .section1-which{
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 27.6px;
+        margin-bottom: 16px;
+    }
+    .what-is-box{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .what-is-box-2{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-top: 16px;
+    }
+    .what-is-box-sub h3{
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 22.8px;
+        margin-top: 1px;
+    }
+    .what-is-box-sub h4 {
+        font-size:16px ;
+        font-weight: 400;
+        line-height: 19.2px;
+        margin-top: 8px;
+        margin-bottom: 18px;
+    }
+    .what-is-box-img{
+        width: 100%;
+    }
+  
+}

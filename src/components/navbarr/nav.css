@@ -1,0 +1,133 @@
+.navbar{
+    /* background-color: brown; */
+    padding-left: 10rem;
+    padding-right: 10rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    position: -webkit-sticky;
+    z-index: 2;
+    top: 0;
+}
+.logo{
+    width: 40%;
+    height: 40%;
+}
+.nav-lists{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    font-family: SF-Pro-Regular;
+}
+.register-btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 40px 20px 40px;
+    color: white;
+    background-color: #9C53EA;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: SF-Pro-Regular;
+    text-decoration: none;
+
+}
+.events{
+    color: #9C53EA;
+}
+.register-btn:hover{
+    background-color: #8c2ef1a1;
+}
+.register-btn:active{
+    transform: translateY(4px);
+}
+.nav-btn{
+    background-color:#9C53EA;
+    width: 52px;
+    height: 52px;
+    border-radius: 9.19px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    text-decoration: none;
+}
+@media screen and (max-width:1024px){
+    .navbar{
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+}
+
+@media screen and (max-width:767px){
+    .logo{
+        width: 30%;
+        height: 30%;
+    }
+.nav-btn{
+    display: flex;
+    text-decoration: none;
+}
+.nav-close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 1.5rem;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    border: 1px solid white;
+  }
+.nav-lists{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top:0;
+    left: -100vh;
+	height: 100%;
+	width: 100%;
+    flex-direction: column;
+    z-index: 1;
+    background-color: #9C53EA;
+    transition: 0.7s ;
+    gap: 4rem;
+    color: white;
+}
+/* nav .responsive_nav {
+    transform: translateX(100vh); 
+   overflow: hidden;
+} */
+.register-btn{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px 30px 15px 30px;
+    color: #9C53EA;
+    background-color: white;
+    border: none;
+    
+   
+
+}
+.events{
+    color: white;
+}
+.arrow{
+    display: none ;
+}
+.navbar{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+}

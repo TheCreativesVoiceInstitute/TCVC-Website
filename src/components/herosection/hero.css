@@ -1,0 +1,172 @@
+.hero{
+    background-image:url('/image 1.png') ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ background-color: rgba(0, 0, 0, 0.89);
+ padding-bottom: 7rem;
+}
+.hero-cont{
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width:901px ;
+    height:805px ;
+    margin-bottom: 6rem;
+    padding-top: 4rem;
+}
+.creatives-voice{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 84px;
+    text-align: center;
+    margin-top: 6rem;
+    font-family: SF-pro-bold;
+   
+}
+.ignite{
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 39.6px;
+    text-align: center;
+    margin-top: 16px;
+    font-family: SF-pro-Regular;
+}
+.hero-btn{
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+.hero-btn-sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem 1rem 2rem;
+    gap: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: SF-pro-Regular;
+    text-decoration: none;
+}
+.hero-btn-sub-1{
+    background-color: #9C53EA;
+    border: none;
+    justify-content: center;
+    display: flex;
+}
+
+.hero-btn-sub:hover{
+    opacity: 80%;
+}
+
+.hero-btn-sub:active{
+    transform: translateY(4px);
+}
+.hero-p{
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 27.6px;
+    margin-top: 8px;
+    font-family: SF-pro-Regular;
+}
+
+.img-2{
+    border-radius: 30px;
+    margin-top: 16px;
+}
+@media screen and (max-width:1024px){
+    .creatives-voice{
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 80px;
+        text-align: center;
+        margin-top: 2rem;
+        font-family: SF-pro-bold;
+       
+    }
+    .ignite{
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 35.6px;
+        text-align: center;
+        margin-top: 16px;
+        font-family: SF-pro-Regular;
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+    .img-2{
+        width: 70%;
+    }
+    .hero-cont{
+        margin-bottom: 3rem;
+    }
+    
+}
+@media screen and (max-width:767px){
+    .hero-cont{
+        margin-top: 40px;
+        text-align: center;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width:382px ;
+        height:622px ;
+        margin-bottom: 3rem;
+        padding-top: 0rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        box-sizing: border-box;
+    }
+    .creatives-voice{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: center;
+        margin-top: 0rem;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .ignite{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19.2px;
+        text-align: center;
+        width: 275px;
+        margin-top: 16px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .hero-p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.2px;
+        margin-top: 8px;
+    }
+    .hero-btn{
+        flex-direction: column;
+        width: 100%;
+
+    }
+    .hero-btn-sub{
+        font-size: 15px;
+        line-height: 19.2px;
+        padding: 1rem 2rem 1rem 2rem;
+    }
+    .img-2{
+        width: 100%;
+    }
+  
+}

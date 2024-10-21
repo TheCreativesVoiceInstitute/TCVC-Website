@@ -1,0 +1,344 @@
+.before-after-cont {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.before-after {
+    padding: 60px 30px 62px 30px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+
+.before-after h4 {
+    font-family: SF-Pro-bold;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33.6px;
+    text-align: left;
+
+}
+
+.before-after p {
+    font-family: SF-Pro-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    gap: 2.5px;
+
+}
+
+.marque {
+    display: flex;
+    justify-content: center;
+    gap: 29px;
+    margin-bottom: 50px;
+}
+
+.marque-sub {
+    display: flex;
+    align-items: center;
+    font-family: SF-Pro-medium;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 57.6px;
+    text-align: left;
+    gap: 8px;
+    margin-right: 2rem;
+
+}
+
+.small-txt {
+    font-family: SF-Pro-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 8px;
+
+}
+
+details {
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 20px 40px 20px 40px;
+    width: 55%;
+    font-family: SF-Pro-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+
+
+
+}
+
+summary {
+    font-size: 16px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.summary-p {
+    font-size: 16px;
+    margin-top: 1rem;
+
+}
+
+.faq-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 24px;
+    margin-bottom: 50px;
+}
+
+details>summary:active {
+    transition: 1s;
+    transform: translateY(5px);
+}
+
+details>summary::after {
+    content: url('/Arrow - Down 3.svg');
+    font-size: 1.5em;
+    margin-right: 0.5em;
+}
+
+details[open]>summary::after {
+    content: "-";
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.purple-blob {
+    background-image: url('/Union.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    padding: 74px 215px 74px 215px;
+    color: white;
+    margin-bottom: 6rem;
+}
+
+.purple-blob h1 {
+    font-family: SF-Pro-bold;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 8px;
+
+}
+
+.gain {
+    font-family: SF-Pro-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    margin-bottom: 24px;
+
+}
+
+.d-and-v {
+    font-family: SF-Pro-Regular;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 27.6px;
+
+}
+
+.d-and-v-1 {
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem 0 8rem 0;
+}
+
+.footer p {
+    font-family: SF-Pro-Regular;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33.6px;
+    text-align: left;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+}
+@media screen and (max-width:1024px){
+    .before-after-cont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+    .check-out-some{
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+    .purple-blob{
+        margin-left: 6rem;
+        margin-right: 6rem;
+        background-image: url('/Union.svg');
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-position: none;
+        padding: 24px 20px 24px 20px;
+        color: white;
+        margin-bottom: 5rem;
+        height: 400px;
+    }
+   
+    .purple-blob h1 {
+        font-family: SF-Pro-bold;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 33.6px;
+        margin-bottom: 8px;
+
+    }
+
+    .d-and-v {
+        font-family: SF-Pro-Regular;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.2px;
+
+    }
+
+    
+}
+
+@media screen and (max-width:767px) {
+    .before-after-cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .check-out-some{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .before-after {
+        padding: 48px 24px 48px 24px;
+        margin-bottom: 50px;
+        border-radius: 15px;
+    }
+
+    .before-after h4 {
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 27.6px;
+
+    }
+
+    .before-after p {
+        align-items: flex-start;
+    }
+
+    .marque-sub {
+        line-height: 27.6px;
+        font-size: 23px;
+        margin-right: 1rem;
+    }
+
+    .marque-sub img {
+        width: 50%;
+        height: 50px;
+    }
+
+    details {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        /* margin-left: 1rem;
+        margin-right: 1rem; */
+    }
+
+    .sml-mgn {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .gain{
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .purple-blob h1 {
+        font-family: SF-Pro-bold;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 33.6px;
+        margin-bottom: 8px;
+
+    }
+
+    .d-and-v {
+        font-family: SF-Pro-Regular;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.2px;
+
+    }
+
+    .purple-blob {
+        background-image: url('/Union.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-position: none;
+        padding: 24px 20px 24px 20px;
+        color: white;
+        margin-bottom: 5rem;
+        width: 100%;
+        height: 300px;
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    .footer p {
+        font-family: SF-Pro-Regular;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.2px;
+        text-align: left;
+        color: white;
+        gap: 4px;
+
+    }
+    .d-and-v-1 {
+        margin-top: 16px;
+        margin-bottom: 8px;
+    }
+}
