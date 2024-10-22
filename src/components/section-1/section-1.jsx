@@ -22,10 +22,10 @@ function Section1() {
                 <h1 className='checkout'>Any of this sound familiar?</h1>
                 {/* <p className='loren-sec-1'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p> */}
                 <div className='blt-pt'>
-                    <h4> <img src="./Arrow - Right 3.svg" alt="" />All your friends are into fraud, so it feels like that’s the only way.</h4>
-                    <h4 className='blt-pt-h4'> <img src="./Arrow - Right 3.svg" alt="" /> You have no job or work that’s bringing you enough money for your daily needs.</h4>
-                    <h4> <img src="./Arrow - Right 3.svg" alt="" />You are in need of mentorship and guidance on what  skill learn.</h4>
                     <h4> <img src="./Arrow - Right 3.svg" alt="" />You have a skill but you’re stuck on what to do to make money from it.</h4>
+                    <h4 className='blt-pt-h4'> <img src="./Arrow - Right 3.svg" alt="" /> You have no job or work that’s bringing you enough money for your daily needs.</h4>
+                    <h4> <img src="./Arrow - Right 3.svg" alt="" />You are in need of mentorship and guidance on what  skill to learn.</h4>
+                    <h4> <img src="./Arrow - Right 3.svg" alt="" />All your friends are into fraud, so it feels like that’s the only way.</h4>
                     <h4> <img src="./Arrow - Right 3.svg" alt="" />You feel like you’re not competent enough to create the change you want.</h4>
                     {/* <h4> <img src="./Arrow - Right 3.svg" alt="" />Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h4> */}
                 </div>
