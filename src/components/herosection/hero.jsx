@@ -21,7 +21,7 @@ function Herosection() {
                         </div>
                         <button style={{ border: '1px solid white', backgroundColor: 'rgba(0, 0, 0, 0.151)' }} className='hero-btn-sub'>Watch Video <img src="./Video.svg" alt="" /></button>
                     </div>
-                    <p className='hero-p'>Date: 16th November 2024</p>
+                    <p className='hero-p'>Date: 30th November 2024</p>
                     <p className='hero-p'>Venue: ATB Tech Hub 22, ita-Agemo Ward 12,<br /> Igbehin, Abeokuta, Ogun State.</p>
                     {/* youtubevideo */}
                     <img className='img-2' src="./image 2.png" alt="image" />

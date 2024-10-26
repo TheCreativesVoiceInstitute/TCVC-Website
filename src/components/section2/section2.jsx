@@ -85,21 +85,24 @@ function Section2() {
                 <p className='learn-from'>Learn from top industry leaders accross different niches</p>
                 <div className='grid-2'>
                     <div>
-                        <img className='grid-2-img' src="./Group 16_preview_rev_1 1.svg" alt="" />
-                        {/* <h5  className='grid-2-h5'>Bolaji Kolapo</h5> */}
+                        <img className='grid-2-img1' src="./IMG-20241024-WA0010.jpg" alt="" />
+                        <h5  className='grid-2-h5'>Daniel Emah(Dannymaine)</h5>
+                        <h6 className='grid2-h6'>Designer/Nation Builder</h6>
                     </div>
                     <div>
-                        <img className='grid-2-img' src="./Group 16_preview_rev_1 1.svg" alt="" />
-                        {/* <h5  className='grid-2-h5'>Ikechukwu Ibe</h5> */}
+                        <img className='grid-2-img2' src="./IMG-20241024-WA0009.jpg" alt="" />
+                        <h5  className='grid-2-h5'>Ayodele Elegba</h5>
+                        <h6 className='grid2-h6'>Founder, Spoof Animation</h6>
                     </div>
                     <div>
-                        <img className='grid-2-img' src="./Group 16_preview_rev_1 1.svg" alt="" />
-                        {/* <h5 className='grid-2-h5'>Ibim Okujagu</h5> */}
+                        <img className='grid-2-img1' src="./IMG-20241025-WA0001.jpg" alt="" />
+                        <h5 className='grid-2-h5'>Ogunsakin Ayomide <br />(Director Stone)</h5>
+                        <h6 className='grid2-h6'>Director & Editor, HO3 Media</h6>
                     </div>
-                    <div>
-                        <img className='grid-2-img' src="./Group 16_preview_rev_1 1.svg" alt="" />
-                        {/* <h5 className='grid-2-h5'>Funke Olowookere</h5> */}
-                    </div>
+                    {/* <div>
+                        <img className='grid-2-img' src="./Group 16_preview_rev_1 1.svg" alt="" /> 
+                          <h5 className='grid-2-h5'>Funke Olowookere</h5> 
+                    </div> */}
                 </div>
 
             </section>

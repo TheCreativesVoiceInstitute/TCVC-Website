@@ -77,7 +77,7 @@ function Section4() {
                                 When is the event happening?
                             </summary>
                             <p className="summary-p">
-                                The event is happening on November 16th at the ATB Techhub Abeokuta.
+                                The event is happening on November 30th at the ATB Techhub Abeokuta.
                             </p>
                         </details>
                         <details>
@@ -110,7 +110,7 @@ function Section4() {
                         </LumaCheckoutButton>
                         <script id="luma-checkout" src="https://embed.lu.ma/checkout-button.js" />
                     </div>
-                    <p className='d-and-v-1   d-and-v'>Date: 16th November 2024</p>
+                    <p className='d-and-v-1   d-and-v'>Date: 30th November 2024</p>
                     <p className='d-and-v'>Venue: ATB Tech Hub, Abeokuta</p>
                 </div>
                 </div>
