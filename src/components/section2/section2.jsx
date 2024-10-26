@@ -99,10 +99,9 @@ function Section2() {
                         <h5 className='grid-2-h5'>Ogunsakin Ayomide <br />(Director Stone)</h5>
                         <h6 className='grid2-h6'>Director & Editor, HO3 Media</h6>
                     </div>
-                    {/* <div>
+                    <div>
                         <img className='grid-2-img' src="./Group 16_preview_rev_1 1.svg" alt="" /> 
-                          <h5 className='grid-2-h5'>Funke Olowookere</h5> 
-                    </div> */}
+                    </div>
                 </div>
 
             </section>
