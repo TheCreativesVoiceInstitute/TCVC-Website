@@ -16,6 +16,10 @@
     background-color: rgba(0, 0, 0, 0.625);
     padding-bottom: 7rem;
 }
+.section3-img{
+    width: 50%;
+    height: 50%;
+}
 .section-3-box-sub{
     justify-content: center;
     display: flex;

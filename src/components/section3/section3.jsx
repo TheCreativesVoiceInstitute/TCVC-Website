@@ -7,9 +7,9 @@ function Section3() {
     return (
         <>
             <section className='section3'>
-                <h1 className='wondering-why'>Wondering why you should attend ?</h1>
+                <h1 className='wondering-why'>Wondering why you should attend?</h1>
                 <div className='section-3-box'>
-                    <img className='section3-img' src="./WhatsApp Image 2024-10-15 at 07.18.55_ec1afea0 1.svg" alt="" />
+                    <img className='section3-img' src="./flier.svg" alt="" />
                     <div className='section-3-box-sub'>
                         <div className='why'>
                             <p className='why-no'>01.</p>
