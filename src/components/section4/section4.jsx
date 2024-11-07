@@ -88,14 +88,6 @@ function Section4() {
                                 Yes, the conference is for everyone, either you are new to the creative industry, or you are already a professional.
                             </p>
                         </details>
-                        {/* <details>
-                            <summary>
-                                Lorem Ipsum
-                            </summary>
-                            <p className="summary-p">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum dolore tempora ab ea neque, quasi possimus a laboriosam facilis praesentium
-                            </p>
-                        </details> */}
                     </div>
 
                 </div>

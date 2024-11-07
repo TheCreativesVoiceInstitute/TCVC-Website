@@ -86,7 +86,7 @@ function Section2() {
                 <div className='grid-2'>
                     <div>
                         <img className='grid-2-img' src="./img-0.svg" alt="" />
-                        <h5  className='grid-2-h5'>Daniel Emah(Dannymaine)</h5>
+                        <h5  className='grid-2-h5'>DannyMaine</h5>
                         {/* <h6 className='grid2-h6'>Designer/Nation Builder</h6> */}
                     </div>
                     <div>
@@ -104,13 +104,23 @@ function Section2() {
                         <h5 className='grid-2-h5'> Ayodele Elegba</h5>
                     </div>
                     <div>
+                        <img className='grid-2-img' src="./img-7.svg" alt="" />
+                        <h5 className='grid-2-h5'>Director Stone</h5>
+                        {/* <h6 className='grid2-h6'>Director & Editor, HO3 Media</h6> */}
+                    </div>
+                    <div>
                         <img className='grid-2-img' src="./img-4.svg" alt="" />
-                        <h5 className='grid-2-h5'> Director Stone</h5>
+                        <h5 className='grid-2-h5'> Solarspeaks</h5>
                         {/* <h6 className='grid2-h6'>Director & Editor, HO3 Media</h6> */}
                     </div>
                     <div>
                         <img className='grid-2-img' src="./img-5.svg" alt="" />
-                        <h5 className='grid-2-h5'>Solarspeaks</h5>
+                        <h5 className='grid-2-h5'>Dr Emmanuel Abayomi</h5>
+                        {/* <h6 className='grid2-h6'>Director & Editor, HO3 Media</h6> */}
+                    </div>
+                    <div>
+                        <img className='grid-2-img' src="./img-6.svg" alt="" />
+                        <h5 className='grid-2-h5'>Ikechukwu Ibe</h5>
                         {/* <h6 className='grid2-h6'>Director & Editor, HO3 Media</h6> */}
                     </div>
                 </div>
