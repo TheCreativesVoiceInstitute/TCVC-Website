@@ -87,41 +87,60 @@ function Section2() {
                     <div>
                         <img className='grid-2-img' src="./img-0.svg" alt="" />
                         <h5  className='grid-2-h5'>DannyMaine</h5>
-                        {/* <h6 className='grid2-h6'>Designer/Nation Builder</h6> */}
+                        <h6 className='grid2-h6'>Designer/Nation Builder</h6>
                     </div>
                     <div>
                         <img className='grid-2-img' src="./img-1.svg" alt="" />
-                        <h5  className='grid-2-h5'>Tolulope Kolade (Tcode)</h5>
-                        {/* <h6 className='grid2-h6'>Founder, Spoof Animation</h6> */}
+                        <h5  className='grid-2-h5'>Tolulope Kolade(Tcode)</h5>
+                        <h6 className='grid2-h6'>Founder Voice Verse, Voice actor,
+                        Podcaster</h6>
                     </div>
                     <div>
                         <img className='grid-2-img' src="./img-2.svg" alt="" />
                         <h5 className='grid-2-h5'>Bruno Nwogu</h5>
-                        {/* <h6 className='grid2-h6'>Director & Editor, HO3 Media</h6> */}
+                        <h6 className='grid2-h6'>The Einstein Of Marketing</h6>
                     </div>
                     <div>
                         <img className='grid-2-img' src="./img-3.svg" alt="" /> 
                         <h5 className='grid-2-h5'> Ayodele Elegba</h5>
+                        <h6 className='grid2-h6'>Founder / MD : Spoof Animation</h6>
                     </div>
                     <div>
                         <img className='grid-2-img' src="./img-7.svg" alt="" />
                         <h5 className='grid-2-h5'>Director Stone</h5>
-                        {/* <h6 className='grid2-h6'>Director & Editor, HO3 Media</h6> */}
+                        <h6 className='grid2-h6'>Director & Editor, HO3 Media</h6>
                     </div>
                     <div>
                         <img className='grid-2-img' src="./img-4.svg" alt="" />
                         <h5 className='grid-2-h5'> Solarspeaks</h5>
-                        {/* <h6 className='grid2-h6'>Director & Editor, HO3 Media</h6> */}
+                        <h6 className='grid2-h6'>Spokenword Poet</h6>
                     </div>
                     <div>
                         <img className='grid-2-img' src="./img-5.svg" alt="" />
                         <h5 className='grid-2-h5'>Dr Emmanuel Abayomi</h5>
-                        {/* <h6 className='grid2-h6'>Director & Editor, HO3 Media</h6> */}
+                        <h6 className='grid2-h6'>Psychiatrist & Psychotherapist @
+                        Psychesed</h6>
                     </div>
                     <div>
                         <img className='grid-2-img' src="./img-6.svg" alt="" />
-                        <h5 className='grid-2-h5'>Ikechukwu Ibe</h5>
-                        {/* <h6 className='grid2-h6'>Director & Editor, HO3 Media</h6> */}
+                        <h5 className='grid-2-h5'>King E. Afemikhe</h5>
+                        <h6 className='grid2-h6'>Founder, Voiceover Workshop & Media, Convener, the Voiceover Conference</h6>
+                    </div>
+                    <div>
+                        <img className='grid-2-img' src="./img-10.svg" alt="" />
+                        <h5 className='grid-2-h5'>Oluwaseun Hamzat</h5>
+                        <h6 className='grid2-h6'>Technology & Strategy Consultant</h6>
+                    </div>
+                    <div>
+                        <img className='grid-2-img' src="./img-9.svg" alt="" />
+                        <h5 className='grid-2-h5'>Uche Aguocha</h5>
+                        <h6 className='grid2-h6'>Personal Finance & Business
+                        Coach</h6>
+                    </div>
+                    <div>
+                        <img className='grid-2-img' src="./img-8.svg" alt="" />
+                        <h5 className='grid-2-h5'>Oluwapelumi O. Ayowale</h5>
+                        <h6 className='grid2-h6'>Legal Professional & Creative</h6>
                     </div>
                 </div>
 

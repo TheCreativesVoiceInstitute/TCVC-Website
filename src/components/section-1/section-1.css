@@ -33,6 +33,9 @@
     font-size: 28px;
     text-align: left;
 }
+.what-is-box-img{
+    border-radius: 10px;
+}
 .blt-pt h4 {
     margin-top: 24px;
     line-height: 33.6px;
