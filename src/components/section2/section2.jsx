@@ -80,20 +80,26 @@ function Section2() {
                     </LumaCheckoutButton>
                     <script id="luma-checkout" src="https://embed.lu.ma/checkout-button.js" />
                 </div>
-
+            </section>
+            <div className='bg-speaker'>
                 <h1 className='check-out-some'>Here’s our lineup of amazing speakers</h1>
                 <p className='learn-from'>Learn from top industry leaders accross different niches</p>
                 <div className='grid-2'>
                     <div>
+                        <img className='grid-2-img' src="./img-15.svg" alt="" />
+                        <h5 className='grid-2-h5'>Comfort Olofin</h5>
+                        <h6 className='grid2-h6'>Convener</h6>
+                    </div>
+                    <div>
                         <img className='grid-2-img' src="./img-0.svg" alt="" />
-                        <h5  className='grid-2-h5'>DannyMaine</h5>
+                        <h5 className='grid-2-h5'>Daniel Emah</h5>
                         <h6 className='grid2-h6'>Designer/Nation Builder</h6>
                     </div>
                     <div>
                         <img className='grid-2-img' src="./img-1.svg" alt="" />
-                        <h5  className='grid-2-h5'>Tolulope Kolade(Tcode)</h5>
+                        <h5 className='grid-2-h5'>Tolulope Kolade(Tcode)</h5>
                         <h6 className='grid2-h6'>Founder Voice Verse, Voice actor,
-                        Podcaster</h6>
+                            Podcaster</h6>
                     </div>
                     <div>
                         <img className='grid-2-img' src="./img-2.svg" alt="" />
@@ -101,7 +107,7 @@ function Section2() {
                         <h6 className='grid2-h6'>The Einstein Of Marketing</h6>
                     </div>
                     <div>
-                        <img className='grid-2-img' src="./img-3.svg" alt="" /> 
+                        <img className='grid-2-img' src="./img-3.svg" alt="" />
                         <h5 className='grid-2-h5'> Ayodele Elegba</h5>
                         <h6 className='grid2-h6'>Founder / MD : Spoof Animation</h6>
                     </div>
@@ -119,7 +125,7 @@ function Section2() {
                         <img className='grid-2-img' src="./img-5.svg" alt="" />
                         <h5 className='grid-2-h5'>Dr Emmanuel Abayomi</h5>
                         <h6 className='grid2-h6'>Psychiatrist & Psychotherapist @
-                        Psychesed</h6>
+                            Psychesed</h6>
                     </div>
                     <div>
                         <img className='grid-2-img' src="./img-6.svg" alt="" />
@@ -135,16 +141,34 @@ function Section2() {
                         <img className='grid-2-img' src="./img-9.svg" alt="" />
                         <h5 className='grid-2-h5'>Uche Aguocha</h5>
                         <h6 className='grid2-h6'>Personal Finance & Business
-                        Coach</h6>
+                            Coach</h6>
                     </div>
                     <div>
                         <img className='grid-2-img' src="./img-8.svg" alt="" />
                         <h5 className='grid-2-h5'>Oluwapelumi O. Ayowale</h5>
                         <h6 className='grid2-h6'>Legal Professional & Creative</h6>
                     </div>
+                    <div>
+                        <img className='grid-2-img' src="./img-13.svg" alt="" />
+                        <h5 className='grid-2-h5'>Naomi Ojeh</h5>
+                        <h6 className='grid2-h6'>Content Strategist & Media
+                            Personality</h6>
+                    </div>
+                    <div>
+                        <img className='grid-2-img' src="./img-12.svg" alt="" />
+                        <h5 className='grid-2-h5'>Kayode Ayomide</h5>
+                        <h6 className='grid2-h6'>Technology & Strategy Consultant</h6>
+                    </div>
+                    <div>
+                        <img className='grid-2-img' src="./img-14.svg" alt="" />
+                        <h5 className='grid-2-h5'>Samson Odegbami</h5>
+                        <h6 className='grid2-h6'>Life Coach/Business Development
+                            Expert</h6>
+                    </div>
                 </div>
+            </div>
 
-            </section>
+
         </>
     )
 }

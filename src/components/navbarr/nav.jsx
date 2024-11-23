@@ -45,7 +45,7 @@ function Nav() {
                     className="nav-btn"
                     onClick={showNavbar}>
                         <LumaCheckoutButton eventId={eventId}>
-                        <img src="./white-arrow.svg" alt="arrow" loading='lazy' />
+                        <img src="./black-arrow.svg" alt="arrow" loading='lazy' />
                         </LumaCheckoutButton>
                         <script id="luma-checkout" src="https://embed.lu.ma/checkout-button.js" />
                 </button>

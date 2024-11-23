@@ -172,7 +172,6 @@ details[open]>summary::after {
     align-items: center;
     padding: 8rem 0 8rem 0;
 }
-
 .footer p {
     font-family: SF-Pro-Regular;
     font-size: 28px;
@@ -289,35 +288,35 @@ details[open]>summary::after {
     }
     .gain{
         text-align: center;
-        margin-bottom: 16px;
+        margin-bottom: 14px;
     }
 
     .purple-blob h1 {
         font-family: SF-Pro-bold;
-        font-size: 28px;
+        font-size: 26px;
         font-weight: 700;
-        line-height: 33.6px;
-        margin-bottom: 8px;
+        line-height: 30.6px;
+        margin-bottom: 7px;
 
     }
 
     .d-and-v {
         font-family: SF-Pro-Regular;
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 400;
-        line-height: 19.2px;
+        line-height: 17.2px;
 
     }
 
     .purple-blob {
-        background-image: url('/Union.svg');
-        background-size: cover;
+        background-image: url('/Union2.svg');
+        background-size: contain;
         background-repeat: no-repeat;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-position: none;
+        background-position: center;
         padding: 24px 20px 24px 20px;
         color: white;
         margin-bottom: 5rem;
@@ -338,7 +337,7 @@ details[open]>summary::after {
 
     }
     .d-and-v-1 {
-        margin-top: 16px;
+        margin-top: 14px;
         margin-bottom: 8px;
     }
 }

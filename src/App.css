@@ -2,8 +2,40 @@
   box-sizing: border-box;
   margin: 0;
 }
+.bg{
+  background-image:url('/Grid layers - v1.svg') ;
+  background-size: contain;
+  background-position: center;
+}
 body{
   background-color: #FAF6FE;
+  &::before{
+    content: "";
+    position:absolute;
+    width: 13%;
+    height: 13%;
+    background:  #EC008C;
+   border-radius: 50%;
+   left: 10%;
+   top: 20%;
+   filter: blur(100px);
+   animation: gradient 4s infinite;
+   z-index: -1;
+   }
+  
+   &::after{
+    content: "";
+    position: absolute;
+    width: 13%;
+    height: 13%;
+    background: rgb(15, 117, 251);
+   border-radius: 50%;
+   right: 17%;
+   bottom: -10%;
+   filter: blur(100px);
+   animation:gradient 4s infinite;
+   z-index: -1;
+   }
 }
 @font-face{
   font-family: SF-pro-bold;
@@ -18,4 +50,37 @@ body{
 @font-face{
   font-family: SF-Pro-medium;
   src: url(/src/assets/SFPRODISPLAYMEDIUM.OTF);
+}
+@media screen and (max-width:767px){
+  body{
+    background-color: #FAF6FE;
+    &::before{
+      content: "";
+      position:absolute;
+      width: 10%;
+      height: 10%;
+      background:  #EC008C;
+     border-radius: 50%;
+     left: 10%;
+     top: 20%;
+     filter: blur(50px);
+     animation: gradient 4s infinite;
+     z-index: -1;
+     }
+    
+     &::after{
+      content: "";
+      position: absolute;
+      width: 10%;
+      height: 10%;
+      background: rgb(15, 117, 251);
+     border-radius: 50%;
+     right: 10%;
+     top: 70%;
+    
+     filter: blur(50px);
+     animation:gradient 4s infinite;
+     z-index: -1;
+     }
+  }
 }

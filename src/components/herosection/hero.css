@@ -1,17 +1,14 @@
 .hero{
-    /* background-image:url('/image 1.png') ; */
-    background-size: cover;
-    background-position: center;
+    /* background-image:url('/Grid layers - v1.svg') ; */
     display: flex;
     justify-content: center;
     align-items: center;
- background-color: rgba(0, 0, 0, 0.89);
- padding-bottom: 7rem;
+ padding-bottom: 3.5rem;
 }
 .hero-cont{
     margin-top: 40px;
     text-align: center;
-    color: white;
+    color: black;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -26,8 +23,9 @@
     font-weight: 700;
     line-height: 84px;
     text-align: center;
-    margin-top: 3rem;    
+    margin-top: 8rem;    
     font-family: SF-pro-bold;
+    color: #EC008C;
    
 }
 .ignite{
@@ -81,8 +79,23 @@
 }
 
 .img-2{
-    border-radius: 30px;
     margin-top: 16px;
+}
+.img-2b{
+    display: none;
+}
+
+
+.marque2{
+    background-color: black;
+}
+.marque-sub2{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+}
+.marque-sub2 img{
+    width: 100%;
 }
 @media screen and (max-width:1024px){
     .creatives-voice{
@@ -104,9 +117,9 @@
         padding-left: 6rem;
         padding-right: 6rem;
     }
-    .img-2{
+    /* .img-2{
         width: 70%;
-    }
+    } */
     .hero-cont{
         margin-bottom: 3rem;
     }
@@ -114,16 +127,16 @@
 }
 @media screen and (max-width:767px){
     .hero-cont{
-        margin-top: 40px;
+        margin-top: -2rem;
         text-align: center;
-        color: white;
+        color: black;
         justify-content: center;
         align-items: center;
         display: flex;
         flex-direction: column;
         width:382px ;
         height:622px ;
-        margin-bottom: 3rem;
+        margin-bottom: 0rem;
         padding-top: 0rem;
         margin-left: 1rem;
         margin-right: 1rem;
@@ -166,7 +179,26 @@
         padding: 1rem 2rem 1rem 2rem;
     }
     .img-2{
+        display: none;
+    }
+    .img-2b{
+        margin-top: -5rem;
+        display: flex;
         width: 100%;
+    }
+    .marque2{
+        margin-top: -2px;
+    }
+    .marque-sub2{
+        margin-top: 0;
+        margin-bottom: 0;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .marque-sub2 img{
+        width: 80%;
+
     }
   
 }

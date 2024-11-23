@@ -12,8 +12,10 @@ function App() {
 
   return (
     <>
+    <div className='bg'>
       <Nav/>
       <Herosection/>
+    </div>
       <Section1/>
       <Section2/>
       <Section3/>

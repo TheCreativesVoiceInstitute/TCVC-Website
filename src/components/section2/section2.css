@@ -98,6 +98,13 @@
   font-family: SF-Pro-Regular;
   margin-top: 4px;
 }
+.bg-speaker{
+  background-image:url('/Grid layers - v1.svg') ;
+  background-size: contain;
+  background-position: center;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
 
 @media screen and (max-width:1024px) {
   .section-2 {
@@ -133,6 +140,10 @@
     margin-bottom: 0;
     padding-bottom: 0;
 
+  }
+  .bg-speaker{
+      padding-left: 1rem;
+      padding-right: 1rem;
   }
 
   .grid-element-sub h5 {
