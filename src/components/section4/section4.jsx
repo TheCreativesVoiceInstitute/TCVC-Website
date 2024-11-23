@@ -92,19 +92,22 @@ function Section4() {
 
                 </div>
                 <div className='sml-mgn'>
-                <div className='purple-blob'>
-                    <h1>Save your spot</h1>
-                    <p className='gain'>Gain Invaluable insights from industry leaders at TCVC</p>
-                    <div>
-                        <LumaCheckoutButton eventId={eventId} className="hero-btn-sub  hero-btn-sub-1"  >
-                            Get your free ticket
-                            <img src="./Ticket Star.svg" alt="" />
-                        </LumaCheckoutButton>
-                        <script id="luma-checkout" src="https://embed.lu.ma/checkout-button.js" />
+                    <div className='purple-blob'>
+                        <h1>Save your spot</h1>
+                        <p className='gain'>Gain Invaluable insights from industry leaders at TCVC</p>
+                        <div>
+                            <LumaCheckoutButton eventId={eventId} className="hero-btn-sub  hero-btn-sub-1"  >
+                                Get your free ticket
+                                <img src="./Ticket Star.svg" alt="" />
+                            </LumaCheckoutButton>
+                            <script id="luma-checkout" src="https://embed.lu.ma/checkout-button.js" />
+                        </div>
+                        <p className='d-and-v-1   d-and-v'>Date: 30th November 2024</p>
+                        <p className='d-and-v'>Venue: ATB Tech Hub, Abeokuta</p>
                     </div>
-                    <p className='d-and-v-1   d-and-v'>Date: 30th November 2024</p>
-                    <p className='d-and-v'>Venue: ATB Tech Hub, Abeokuta</p>
                 </div>
+                <div>
+                    <img className='p-grid' src="./Perspective Grid.svg" alt="" />
                 </div>
 
                 <div className='footer'>

@@ -117,11 +117,12 @@
         padding-left: 6rem;
         padding-right: 6rem;
     }
-    /* .img-2{
-        width: 70%;
-    } */
+    .img-2{
+        width: 100%;
+        margin-top: 5.3rem;
+    }
     .hero-cont{
-        margin-bottom: 3rem;
+        margin-bottom: 0;
     }
     
 }

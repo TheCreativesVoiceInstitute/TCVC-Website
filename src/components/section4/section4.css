@@ -184,6 +184,12 @@ details[open]>summary::after {
     gap: 7px;
 
 }
+.p-grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 @media screen and (max-width:1024px){
     .before-after-cont{
         display: flex;
@@ -339,5 +345,8 @@ details[open]>summary::after {
     .d-and-v-1 {
         margin-top: 14px;
         margin-bottom: 8px;
+    }
+    .p-grid{
+        display: none;
     }
 }
