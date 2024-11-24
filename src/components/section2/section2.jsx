@@ -145,7 +145,7 @@ function Section2() {
                     </div>
                     <div>
                         <img className='grid-2-img' src="./img-8.svg" alt="" />
-                        <h5 className='grid-2-h5'>Oluwapelumi O. Ayowale</h5>
+                        <h5 className='grid-2-h5'>Oluwapelumi O.Awoyale</h5>
                         <h6 className='grid2-h6'>Legal Professional & Creative</h6>
                     </div>
                     <div>

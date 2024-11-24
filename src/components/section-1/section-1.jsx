@@ -6,19 +6,6 @@ function Section1() {
     return (
         <>
             <section className='section-1'>
-                <h1 className='checkout'>Check out some of our partners</h1>
-                <div className='partners'>
-                    <div></div>
-                    <div ></div>
-                    <div></div>
-                    <div></div>
-                    <div> </div>
-                    <div></div>
-                    {/* <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div> */}
-                </div>
                 <h1 className='checkout'>Any of this sound familiar?</h1>
                 {/* <p className='loren-sec-1'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p> */}
                 <div className='blt-pt'>
