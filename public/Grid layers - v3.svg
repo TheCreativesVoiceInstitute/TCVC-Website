@@ -1,0 +1,50 @@
+<svg width="430" height="932" viewBox="0 0 430 932" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.09">
+<line y1="-0.53454" x2="1281.83" y2="-0.53454" transform="matrix(1 0 0 -1 -448 312.027)" stroke="#EC008C" stroke-width="1.06908"/>
+<line y1="-0.53454" x2="1281.83" y2="-0.53454" transform="matrix(1 0 0 -1 -448 38.3401)" stroke="#EC008C" stroke-width="1.06908"/>
+<line y1="-0.53454" x2="1281.83" y2="-0.53454" transform="matrix(1 0 0 -1 -448 585.708)" stroke="#EC008C" stroke-width="1.06908"/>
+<line y1="-0.53454" x2="1281.83" y2="-0.53454" transform="matrix(1 0 0 -1 -448 859.395)" stroke="#EC008C" stroke-width="1.06908"/>
+<line y1="-0.53454" x2="1281.83" y2="-0.53454" transform="matrix(1 0 0 -1 -448 448.867)" stroke="#EC008C" stroke-width="1.06908"/>
+<line y1="-0.53454" x2="1281.83" y2="-0.53454" transform="matrix(1 0 0 -1 -448 175.187)" stroke="#EC008C" stroke-width="1.06908"/>
+<line y1="-0.53454" x2="1281.83" y2="-0.53454" transform="matrix(1 0 0 -1 -448 722.555)" stroke="#EC008C" stroke-width="1.06908"/>
+<line y1="-0.53454" x2="1281.83" y2="-0.53454" transform="matrix(1 0 0 -1 -448 380.451)" stroke="#EC008C" stroke-width="1.06908"/>
+<line y1="-0.53454" x2="1281.83" y2="-0.53454" transform="matrix(1 0 0 -1 -448 106.763)" stroke="#EC008C" stroke-width="1.06908"/>
+<line y1="-0.53454" x2="1281.83" y2="-0.53454" transform="matrix(1 0 0 -1 -448 654.131)" stroke="#EC008C" stroke-width="1.06908"/>
+<line y1="-0.53454" x2="1281.83" y2="-0.53454" transform="matrix(1 0 0 -1 -448 517.291)" stroke="#EC008C" stroke-width="1.06908"/>
+<line y1="-0.53454" x2="1281.83" y2="-0.53454" transform="matrix(1 0 0 -1 -448 243.604)" stroke="#EC008C" stroke-width="1.06908"/>
+<line y1="-0.53454" x2="1281.83" y2="-0.53454" transform="matrix(1 0 0 -1 -448 790.972)" stroke="#EC008C" stroke-width="1.06908"/>
+<line y1="-0.53454" x2="989.967" y2="-0.53454" transform="matrix(-4.37114e-08 -1 -1 4.37114e-08 138.933 883.981)" stroke="#EC008C" stroke-width="1.06908"/>
+<line y1="-0.53454" x2="989.967" y2="-0.53454" transform="matrix(-4.37114e-08 -1 -1 4.37114e-08 412.613 883.981)" stroke="#EC008C" stroke-width="1.06908"/>
+<line y1="-0.53454" x2="989.967" y2="-0.53454" transform="matrix(-4.37114e-08 -1 -1 4.37114e-08 275.766 883.981)" stroke="#EC008C" stroke-width="1.06908"/>
+<line y1="-0.53454" x2="989.967" y2="-0.53454" transform="matrix(-4.37114e-08 -1 -1 4.37114e-08 2.08557 883.981)" stroke="#EC008C" stroke-width="1.06908"/>
+<line y1="-0.53454" x2="989.967" y2="-0.53454" transform="matrix(-4.37114e-08 -1 -1 4.37114e-08 207.349 883.981)" stroke="#EC008C" stroke-width="1.06908"/>
+<line y1="-0.53454" x2="989.967" y2="-0.53454" transform="matrix(-4.37114e-08 -1 -1 4.37114e-08 344.19 883.981)" stroke="#EC008C" stroke-width="1.06908"/>
+<line y1="-0.53454" x2="989.967" y2="-0.53454" transform="matrix(-4.37114e-08 -1 -1 4.37114e-08 70.509 883.981)" stroke="#EC008C" stroke-width="1.06908"/>
+</g>
+<g opacity="0.5">
+<rect width="68.0323" height="68.0323" transform="matrix(1 0 0 -1 276.349 175.763)" fill="#D9AB52" fill-opacity="0.5"/>
+<rect width="68.0323" height="68.0323" transform="matrix(1 0 0 -1 -65.7547 175.763)" fill="#28156E" fill-opacity="0.75"/>
+<rect width="68.0323" height="67.0604" transform="matrix(1 0 0 -1 -65.8739 448.907)" fill="#9C9FE3"/>
+<rect width="68.0323" height="68.0323" transform="matrix(1 0 0 -1 413.388 790.972)" fill="#9C9FE3"/>
+<rect width="68.0323" height="67.4217" transform="matrix(1 0 0 -1 344.614 859.395)" fill="#9C9FE3"/>
+<rect width="68.0323" height="67.8646" transform="matrix(1 0 0 -1 344.614 791.336)" fill="#9C9FE3"/>
+<g filter="url(#filter0_f_465_465)">
+<ellipse cx="53" cy="239.5" rx="139" ry="26.5" fill="#EC008C"/>
+</g>
+<g filter="url(#filter1_f_465_465)">
+<ellipse cx="410" cy="552.5" rx="139" ry="26.5" fill="#00AEEF"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_465_465" x="-286" y="13" width="678" height="453" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_465_465"/>
+</filter>
+<filter id="filter1_f_465_465" x="71" y="326" width="678" height="453" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_465_465"/>
+</filter>
+</defs>
+</svg>

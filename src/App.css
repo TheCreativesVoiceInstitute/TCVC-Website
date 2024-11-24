@@ -66,6 +66,7 @@ body{
      filter: blur(50px);
      animation: gradient 4s infinite;
      z-index: -1;
+     display: none;
      }
     
      &::after{
@@ -77,10 +78,17 @@ body{
      border-radius: 50%;
      right: 10%;
      top: 70%;
+     display: none;
     
      filter: blur(50px);
      animation:gradient 4s infinite;
      z-index: -1;
      }
+     .bg{
+      background-image:url('/Grid layers - v3.svg') ;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
   }
 }
